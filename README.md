@@ -10,7 +10,7 @@ This document is a "lie detector" for LLM. It uses logic and scientific facts to
 
 ---
 
-## 🚀 How to use it
+## How to use it
 
 To audit an LLM response, you have two pragmatic options:
 
