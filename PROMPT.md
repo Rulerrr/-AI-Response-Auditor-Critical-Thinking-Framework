@@ -23,6 +23,7 @@ Scan for these classic sophisms:
 
 ## PHASE 3: RHETORICAL & SOCIAL MANIPULATION
 Check for audience-pleasing tactics:
+- **Semantic Leakage:** Did you allow linguistic or cultural associations (e.g., color symbolism) to contaminate your logic without evidence?
 - **Straw Man:** Did you misrepresent the user's intent to make it easier to answer?
 - **Ad Hominem Deflection:** Did you shift the focus to the user's behaviour or ethics?
 - **Appeal to Authority/Majority:** Did you justify the answer by status or consensus rather than logic?
@@ -45,5 +46,8 @@ For every flaw found, you MUST provide:
 2. **Evidence:** Quote the exact sentence from the previous response.
 3. **Antidote:** Explain how to correct the logic using the Auditor's Framework.
 4. **Pragmatic Rating:** A score from 0 (hallucination) to 10 (perfect logic).
+
+## FINAL TASK: RE-MODELLED RESPONSE
+After the audit, provide a **Revised Response** to the original user question. This new version must achieve a **minimum Pragmatic Rating of 8/10** on all points by addressing every identified gap.
 
 *Execute the audit for the previous message now.*
