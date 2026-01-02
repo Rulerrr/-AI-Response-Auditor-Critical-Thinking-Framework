@@ -1,54 +1,57 @@
-# AI Response Auditor: Critical Thinking Framework
+# LLM Response Auditor: The Critical Thinking Tool
 
 Developed by **Ruslan Krucheniuk** | Málaga, Spain
 
-## 🎯 Why This Exists
+## What is this?
 
-Large Language Models (LLMs) are optimised for "helpfulness" and "fluency," which often leads to a phenomenon known as "polite hallucination." AI tends to avoid conflict, seeks middle ground where none exists, and mirrors user biases. 
+SaaS LLM (commercial LLM and further just LLM to simplify the text) is like a very smart student who wants to please the teacher (due to the nature of SaaS design). Sometimes, the LLM gives a "safe" or "nice" answer instead of the truth. This is called a "polite hallucination." 
 
-This framework is a pragmatic tool designed to audit AI outputs using classical logic, system paradoxes, and cognitive science. It helps you see through the "confident eloquence" of the machine.
-
----
-
-## ⚠️ Common AI Logical Fallacies
-
-When auditing an AI response, look for these common "glitches":
-
-* **The False Golden Mean:** The AI attempts to find a compromise between a factual truth and a popular myth just to remain "neutral".
-* **The Slippery Slope:** Generating catastrophic predictions without a clear causal chain.
-* **Ad Hominem Deflection:** The AI questions the user's intent or ethics to avoid answering a complex technical or logical challenge.
-* **Appeal to Consensus:** Justifying a conclusion because it's "widely accepted," ignoring fringe but scientifically valid data.
+This document is a "lie detector" for LLM. It uses logic and scientific facts to find mistakes in how the LLM thinks. If the LLM is being too diplomatic or using bad logic, this tool will catch it.
 
 ---
 
-## 🛠 The Audit Toolbox (Quick Check)
+## 🚀 How to use it
 
-| Detected Pattern | Counter-Logic (Paradox) | The Auditor's Question |
-| :--- | :--- | :--- |
-| Focus on local efficiency | **Braess Paradox** | Will adding this resource actually degrade the entire system's performance? |
-| Obsession with metrics | **Goodhart's Law** | If we follow this metric, how will agents "game" the system to look good? |
-| Claims efficiency = less waste | **Jevons Paradox** | Will increased efficiency lead to higher total consumption in the long run? |
-| Over-reliance on automation | **Automation Paradox** | How will the system survive when the automation fails and human skills have degraded? |
-| Forced compromise | **False Middle Ground** | Is this a factual conclusion or just a diplomatic "safe" response? |
+To audit an LLM response, you have two pragmatic options:
 
----
+### Option A: The Fast Way (Attach File)
+1. Download the [PROMPT.md](./PROMPT.md) file from this repository.
+2. Attach (upload) the file to your LLM chat.
+3. Send this command: **"Read the attached file and use its framework to audit your previous response."**
 
-## 🔍 Verification Protocol
+### Option B: The Manual Way (Copy-Paste)
+1. Open [PROMPT.md](./PROMPT.md) and copy all text.
+2. Paste it into the chat.
+3. Send this command: **"Apply this framework to your previous answer."**
 
-To properly audit an AI, follow these three steps:
-
-1. **The Socratic Drill:** Ask "Why?" three times to expose if the logic is deep or just a surface-level word association.
-2. **Boundary Testing (Popper's Principle):** Explicitly ask the AI to find a fatal flaw in its own previous response.
-3. **Bias Extraction:** Ask the AI to rewrite the answer from the perspective of a radical pragmatist or a cynical expert to see how the content shifts.
+The LLM will then scan its own text for paradoxes like **Braess** or **Goodhart** and sophisms like the **False Golden Mean** and give you a score from 0 to 10.
 
 ---
 
-## 📜 License & Attribution
+## What does it check?
 
-This project is licensed under the **MIT License**. 
+The auditor looks for common traps like:
+
+* **The Nice Middle (False Golden Mean):** When the LLM tries to find a middle point between a fact and a lie.
+* **The Efficiency Trap (Braess Paradox):** When a "better" road actually creates more traffic jams.
+* **The Metric Game (Goodhart's Law):** When the LLM cares more about looking good than being right.
+* **Wrong Cause (Post Hoc):** When the LLM thinks that because B happened after A, then A caused B.
+* **Survivor Bias:** When the LLM only talks about success and ignores failure.
+
+---
+
+## Why it works
+
+This framework forces the LLM to be "intellectually brutal" with itself. It stops the LLM from being a "pleaser" and turns it into a "logic auditor". It is based on principles from Socrates, Aristotle, and modern systems science.
+
+---
+
+## License
+
+This project uses the **MIT License**. You are free to share it, but please keep the author's name.
 
 **Author:** Ruslan Krucheniuk
 **Location:** Málaga, Spain
-**Year:** 2023-2026
+**Year:** 2026
 
-*Note: This framework is built for those who seek the truth, not just a convenient argument.*
+*Stop believing everything the machine says. Start auditing.*
