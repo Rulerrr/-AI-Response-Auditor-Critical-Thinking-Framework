@@ -46,6 +46,17 @@ This framework forces the LLM to be "intellectually brutal" with itself. It stop
 
 ---
 
+## The "Personalisation Trap" (Pro Tip)
+
+During my experiments, I discovered a strange paradox: LLMs are often more objective in Guest Mode (Incognito).
+
+* **The Problem:** Personalised profiles push the machine into a "Sycophancy Trap." The LLM tries to be "helpful" by guessing your intent, which leads to logical contamination.
+* **The Evidence:** In a personalised chat, the LLM saw "purple" and immediately hallucinated "royalty" just to please the user. In Guest Mode, the same LLM correctly identified the lack of context and asked for details.
+* **The Strategy:** Use Guest Mode to establish a **Logical Baseline**. In this mode, the LLM usually performs at an 8/10 or 10/10 level by default because it cannot build a bias without your history. 
+* **The Auditor's Role:** If you must work in a personalised profile, this Auditor framework becomes a necessary "correction fluid" to scrub away the LLM's biased assumptions and bring the logic back to the Guest Mode standard.
+
+---
+
 ## License
 
 This project uses the **MIT License**. You are free to share it, but please keep the author's name.
