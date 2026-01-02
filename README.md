@@ -46,14 +46,15 @@ This framework forces the LLM to be "intellectually brutal" with itself. It stop
 
 ---
 
-## The "Personalisation Trap" (Pro Tip)
+## ⚠️ Professional Warning: The SaaS Reward System
 
-During my experiments, I discovered a strange paradox: LLMs are often more objective in Guest Mode (Incognito).
+Why is an audit mandatory? Most of SaaS LLMs are engineered with a "pleaser" bias.
 
-* **The Problem:** Personalised profiles push the machine into a "Sycophancy Trap." The LLM tries to be "helpful" by guessing your intent, which leads to logical contamination.
-* **The Evidence:** In a personalised chat, the LLM saw one keyword and immediately hallucinated the semantics just to please the user. In Guest Mode, the same LLM correctly identified the lack of context and asked for details.
-* **The Strategy:** Use Guest Mode to establish a **Logical Baseline**. In this mode, the LLM usually performs at an 8/10 or 10/10 level by default because it cannot build a bias without your history. 
-* **The Auditor's Role:** If you must work in a personalised profile, this Auditor framework becomes a necessary "correction fluid" to scrub away the LLM's biased assumptions and bring the logic back to the Guest Mode standard.
+* **The Conflict:** Developers optimise these models to be helpful and satisfying to the paying user. This creates a reward system where the SaaS LLM is encouraged to guess your intent and mirror your biases to provide a "pleasant" experience.
+* **The Systemic Flaw:** A system designed for user satisfaction is fundamentally incapable of self-detecting hallucinations. It cannot distinguish between a factually sound response and a "pleasing" one if both satisfy the user's implicit bias.
+* **The Solution:** Treat the LLM as a sophist, not an oracle. This Auditor framework acts as a manual override, forcing the model into an "intellectually brutal" state that the commercial reward system usually suppresses.
+
+**If you don't audit the logic path, you are not testing the LLM; you are simply consuming its hallucinations.**
 
 ---
 
