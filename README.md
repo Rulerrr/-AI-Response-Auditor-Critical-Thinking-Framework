@@ -34,7 +34,7 @@ A system designed to guess intent and provide satisfaction is fundamentally inca
 ## 🙏 Acknowledgments
 Special thanks to **Michael Bolton** for the intellectual "stress-test" of this framework. 
 Our discussion was pivotal in refining this methodology from a simple "manual" prompt into a **Conscientious Audit** process. Michael's insights on the "manic enthusiasm" of commercial models and the inherent biases of the Saas LLMs' reward systems helped shape the final version of this handbook.
-The "Recursive Experiment" challenged here proved that an LLM cannot be its own judge—only deliberate human agency can provide a true audit path.
+The "Recursive Experiment" challenged here proved that an LLM cannot be its own judge-only deliberate human agency can provide a true audit path.
 
 **Author:** Ruslan Krucheniuk
 **Location:** Málaga, Spain
