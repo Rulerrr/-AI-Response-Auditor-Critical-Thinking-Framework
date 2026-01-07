@@ -5,7 +5,7 @@ Developed by **Ruslan Krucheniuk** | Málaga, Spain | 2026
 ## Philosophy: Why we audit
 Current SaaS LLMs are commercially engineered to prioritise "manic enthusiasm" and user satisfaction over logical truth. Because of the nature of SaaS LLMs' reward systems, these models act as sophisticated pleasers, often falling into the **Sycophancy Trap** to keep retention metrics high.
 
-**This is not just a tool; it is a methodology for the Conscientious Auditor.** An audit is a conscious human act. If it’s not deliberate and critical, it’s not an audit—it’s just a "check".
+**This is not just a tool; it is a methodology for the Conscientious Auditor.** An audit is a conscious human act. If it’s not deliberate and critical, it’s not an audit - it’s just a "check".
 
 ---
 
